@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2DF43D1DEF1DEE00D8AE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DF43C1DEF1DEE00D8AE23 /* main.m */; };
+		6D2DF4401DEF1DEE00D8AE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DF43F1DEF1DEE00D8AE23 /* AppDelegate.m */; };
+		6D2DF4431DEF1DEE00D8AE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DF4421DEF1DEE00D8AE23 /* ViewController.m */; };
+		6D2DF4461DEF1DEF00D8AE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2DF4441DEF1DEF00D8AE23 /* Main.storyboard */; };
+		6D2DF4481DEF1DEF00D8AE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2DF4471DEF1DEF00D8AE23 /* Assets.xcassets */; };
+		6D2DF44B1DEF1DEF00D8AE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2DF4491DEF1DEF00D8AE23 /* LaunchScreen.storyboard */; };
+		6D2DF4561DEF1DEF00D8AE23 /* HUD_Guidance_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DF4551DEF1DEF00D8AE23 /* HUD_Guidance_DemoTests.m */; };
+		6D2DF4611DEF1DEF00D8AE23 /* HUD_Guidance_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DF4601DEF1DEF00D8AE23 /* HUD_Guidance_DemoUITests.m */; };
+		6D2DF4701DEF288000D8AE23 /* HUDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DF46F1DEF288000D8AE23 /* HUDUtil.m */; };
+		84E556FA5375335C008361A3 /* libPods-HUD-Guidance-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4D673F0013560BB29DDD46 /* libPods-HUD-Guidance-Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D2DF4521DEF1DEF00D8AE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2DF4301DEF1DEE00D8AE23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2DF4371DEF1DEE00D8AE23;
+			remoteInfo = "HUD-Guidance-Demo";
+		};
+		6D2DF45D1DEF1DEF00D8AE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2DF4301DEF1DEE00D8AE23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2DF4371DEF1DEE00D8AE23;
+			remoteInfo = "HUD-Guidance-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0614D5633C71ED7ED90BD5 /* Pods-HUD-Guidance-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUD-Guidance-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUD-Guidance-Demo/Pods-HUD-Guidance-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4D673F0013560BB29DDD46 /* libPods-HUD-Guidance-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HUD-Guidance-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2DF4381DEF1DEE00D8AE23 /* HUD-Guidance-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HUD-Guidance-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2DF43C1DEF1DEE00D8AE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D2DF43E1DEF1DEE00D8AE23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D2DF43F1DEF1DEE00D8AE23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D2DF4411DEF1DEE00D8AE23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D2DF4421DEF1DEE00D8AE23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D2DF4451DEF1DEF00D8AE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D2DF4471DEF1DEF00D8AE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2DF44A1DEF1DEF00D8AE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2DF44C1DEF1DEF00D8AE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2DF4511DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HUD-Guidance-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2DF4551DEF1DEF00D8AE23 /* HUD_Guidance_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUD_Guidance_DemoTests.m; sourceTree = "<group>"; };
+		6D2DF4571DEF1DEF00D8AE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2DF45C1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HUD-Guidance-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2DF4601DEF1DEF00D8AE23 /* HUD_Guidance_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUD_Guidance_DemoUITests.m; sourceTree = "<group>"; };
+		6D2DF4621DEF1DEF00D8AE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2DF46E1DEF288000D8AE23 /* HUDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDUtil.h; sourceTree = "<group>"; };
+		6D2DF46F1DEF288000D8AE23 /* HUDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDUtil.m; sourceTree = "<group>"; };
+		95505561E193DD58C3747D44 /* Pods-HUD-Guidance-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUD-Guidance-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUD-Guidance-Demo/Pods-HUD-Guidance-Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2DF4351DEF1DEE00D8AE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E556FA5375335C008361A3 /* libPods-HUD-Guidance-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2DF44E1DEF1DEF00D8AE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2DF4591DEF1DEF00D8AE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8177A1B74607D20034A9DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B0614D5633C71ED7ED90BD5 /* Pods-HUD-Guidance-Demo.debug.xcconfig */,
+				95505561E193DD58C3747D44 /* Pods-HUD-Guidance-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D2DF42F1DEF1DEE00D8AE23 = {
+			isa = PBXGroup;
+			children = (
+				6D2DF43A1DEF1DEE00D8AE23 /* HUD-Guidance-Demo */,
+				6D2DF4541DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests */,
+				6D2DF45F1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests */,
+				6D2DF4391DEF1DEE00D8AE23 /* Products */,
+				1C8177A1B74607D20034A9DE /* Pods */,
+				B9338D765F994C6B39172FF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2DF4391DEF1DEE00D8AE23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2DF4381DEF1DEE00D8AE23 /* HUD-Guidance-Demo.app */,
+				6D2DF4511DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests.xctest */,
+				6D2DF45C1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2DF43A1DEF1DEE00D8AE23 /* HUD-Guidance-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6D2DF43E1DEF1DEE00D8AE23 /* AppDelegate.h */,
+				6D2DF43F1DEF1DEE00D8AE23 /* AppDelegate.m */,
+				6D2DF4411DEF1DEE00D8AE23 /* ViewController.h */,
+				6D2DF4421DEF1DEE00D8AE23 /* ViewController.m */,
+				6D2DF46E1DEF288000D8AE23 /* HUDUtil.h */,
+				6D2DF46F1DEF288000D8AE23 /* HUDUtil.m */,
+				6D2DF4441DEF1DEF00D8AE23 /* Main.storyboard */,
+				6D2DF4471DEF1DEF00D8AE23 /* Assets.xcassets */,
+				6D2DF4491DEF1DEF00D8AE23 /* LaunchScreen.storyboard */,
+				6D2DF44C1DEF1DEF00D8AE23 /* Info.plist */,
+				6D2DF43B1DEF1DEE00D8AE23 /* Supporting Files */,
+			);
+			path = "HUD-Guidance-Demo";
+			sourceTree = "<group>";
+		};
+		6D2DF43B1DEF1DEE00D8AE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D2DF43C1DEF1DEE00D8AE23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D2DF4541DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2DF4551DEF1DEF00D8AE23 /* HUD_Guidance_DemoTests.m */,
+				6D2DF4571DEF1DEF00D8AE23 /* Info.plist */,
+			);
+			path = "HUD-Guidance-DemoTests";
+			sourceTree = "<group>";
+		};
+		6D2DF45F1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2DF4601DEF1DEF00D8AE23 /* HUD_Guidance_DemoUITests.m */,
+				6D2DF4621DEF1DEF00D8AE23 /* Info.plist */,
+			);
+			path = "HUD-Guidance-DemoUITests";
+			sourceTree = "<group>";
+		};
+		B9338D765F994C6B39172FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C4D673F0013560BB29DDD46 /* libPods-HUD-Guidance-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2DF4371DEF1DEE00D8AE23 /* HUD-Guidance-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2DF4651DEF1DEF00D8AE23 /* Build configuration list for PBXNativeTarget "HUD-Guidance-Demo" */;
+			buildPhases = (
+				34ED93333A4930A060D2F567 /* [CP] Check Pods Manifest.lock */,
+				6D2DF4341DEF1DEE00D8AE23 /* Sources */,
+				6D2DF4351DEF1DEE00D8AE23 /* Frameworks */,
+				6D2DF4361DEF1DEE00D8AE23 /* Resources */,
+				BF7BA725D2D27158778BE603 /* [CP] Embed Pods Frameworks */,
+				27E48506CF50EAC229DDBB82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HUD-Guidance-Demo";
+			productName = "HUD-Guidance-Demo";
+			productReference = 6D2DF4381DEF1DEE00D8AE23 /* HUD-Guidance-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D2DF4501DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2DF4681DEF1DEF00D8AE23 /* Build configuration list for PBXNativeTarget "HUD-Guidance-DemoTests" */;
+			buildPhases = (
+				6D2DF44D1DEF1DEF00D8AE23 /* Sources */,
+				6D2DF44E1DEF1DEF00D8AE23 /* Frameworks */,
+				6D2DF44F1DEF1DEF00D8AE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2DF4531DEF1DEF00D8AE23 /* PBXTargetDependency */,
+			);
+			name = "HUD-Guidance-DemoTests";
+			productName = "HUD-Guidance-DemoTests";
+			productReference = 6D2DF4511DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D2DF45B1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2DF46B1DEF1DEF00D8AE23 /* Build configuration list for PBXNativeTarget "HUD-Guidance-DemoUITests" */;
+			buildPhases = (
+				6D2DF4581DEF1DEF00D8AE23 /* Sources */,
+				6D2DF4591DEF1DEF00D8AE23 /* Frameworks */,
+				6D2DF45A1DEF1DEF00D8AE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2DF45E1DEF1DEF00D8AE23 /* PBXTargetDependency */,
+			);
+			name = "HUD-Guidance-DemoUITests";
+			productName = "HUD-Guidance-DemoUITests";
+			productReference = 6D2DF45C1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2DF4301DEF1DEE00D8AE23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iHTCboy;
+				TargetAttributes = {
+					6D2DF4371DEF1DEE00D8AE23 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 28PV6G96R7;
+						ProvisioningStyle = Automatic;
+					};
+					6D2DF4501DEF1DEF00D8AE23 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D2DF4371DEF1DEE00D8AE23;
+					};
+					6D2DF45B1DEF1DEF00D8AE23 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D2DF4371DEF1DEE00D8AE23;
+					};
+				};
+			};
+			buildConfigurationList = 6D2DF4331DEF1DEE00D8AE23 /* Build configuration list for PBXProject "HUD-Guidance-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2DF42F1DEF1DEE00D8AE23;
+			productRefGroup = 6D2DF4391DEF1DEE00D8AE23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2DF4371DEF1DEE00D8AE23 /* HUD-Guidance-Demo */,
+				6D2DF4501DEF1DEF00D8AE23 /* HUD-Guidance-DemoTests */,
+				6D2DF45B1DEF1DEF00D8AE23 /* HUD-Guidance-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2DF4361DEF1DEE00D8AE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2DF44B1DEF1DEF00D8AE23 /* LaunchScreen.storyboard in Resources */,
+				6D2DF4481DEF1DEF00D8AE23 /* Assets.xcassets in Resources */,
+				6D2DF4461DEF1DEF00D8AE23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2DF44F1DEF1DEF00D8AE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2DF45A1DEF1DEF00D8AE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E48506CF50EAC229DDBB82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUD-Guidance-Demo/Pods-HUD-Guidance-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34ED93333A4930A060D2F567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7BA725D2D27158778BE603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUD-Guidance-Demo/Pods-HUD-Guidance-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2DF4341DEF1DEE00D8AE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2DF4431DEF1DEE00D8AE23 /* ViewController.m in Sources */,
+				6D2DF4401DEF1DEE00D8AE23 /* AppDelegate.m in Sources */,
+				6D2DF43D1DEF1DEE00D8AE23 /* main.m in Sources */,
+				6D2DF4701DEF288000D8AE23 /* HUDUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2DF44D1DEF1DEF00D8AE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2DF4561DEF1DEF00D8AE23 /* HUD_Guidance_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2DF4581DEF1DEF00D8AE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2DF4611DEF1DEF00D8AE23 /* HUD_Guidance_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D2DF4531DEF1DEF00D8AE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2DF4371DEF1DEE00D8AE23 /* HUD-Guidance-Demo */;
+			targetProxy = 6D2DF4521DEF1DEF00D8AE23 /* PBXContainerItemProxy */;
+		};
+		6D2DF45E1DEF1DEF00D8AE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2DF4371DEF1DEE00D8AE23 /* HUD-Guidance-Demo */;
+			targetProxy = 6D2DF45D1DEF1DEF00D8AE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D2DF4441DEF1DEF00D8AE23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2DF4451DEF1DEF00D8AE23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2DF4491DEF1DEF00D8AE23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2DF44A1DEF1DEF00D8AE23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2DF4631DEF1DEF00D8AE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D2DF4641DEF1DEF00D8AE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2DF4661DEF1DEF00D8AE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0614D5633C71ED7ED90BD5 /* Pods-HUD-Guidance-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28PV6G96R7;
+				INFOPLIST_FILE = "HUD-Guidance-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.HUD-Guidance-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D2DF4671DEF1DEF00D8AE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95505561E193DD58C3747D44 /* Pods-HUD-Guidance-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28PV6G96R7;
+				INFOPLIST_FILE = "HUD-Guidance-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.HUD-Guidance-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D2DF4691DEF1DEF00D8AE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HUD-Guidance-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.HUD-Guidance-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUD-Guidance-Demo.app/HUD-Guidance-Demo";
+			};
+			name = Debug;
+		};
+		6D2DF46A1DEF1DEF00D8AE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HUD-Guidance-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.HUD-Guidance-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUD-Guidance-Demo.app/HUD-Guidance-Demo";
+			};
+			name = Release;
+		};
+		6D2DF46C1DEF1DEF00D8AE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HUD-Guidance-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.HUD-Guidance-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HUD-Guidance-Demo";
+			};
+			name = Debug;
+		};
+		6D2DF46D1DEF1DEF00D8AE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HUD-Guidance-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.HUD-Guidance-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HUD-Guidance-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2DF4331DEF1DEE00D8AE23 /* Build configuration list for PBXProject "HUD-Guidance-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2DF4631DEF1DEF00D8AE23 /* Debug */,
+				6D2DF4641DEF1DEF00D8AE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2DF4651DEF1DEF00D8AE23 /* Build configuration list for PBXNativeTarget "HUD-Guidance-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2DF4661DEF1DEF00D8AE23 /* Debug */,
+				6D2DF4671DEF1DEF00D8AE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2DF4681DEF1DEF00D8AE23 /* Build configuration list for PBXNativeTarget "HUD-Guidance-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2DF4691DEF1DEF00D8AE23 /* Debug */,
+				6D2DF46A1DEF1DEF00D8AE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2DF46B1DEF1DEF00D8AE23 /* Build configuration list for PBXNativeTarget "HUD-Guidance-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2DF46C1DEF1DEF00D8AE23 /* Debug */,
+				6D2DF46D1DEF1DEF00D8AE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D2DF4301DEF1DEE00D8AE23 /* Project object */;
+}

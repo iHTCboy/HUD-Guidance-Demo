@@ -1,0 +1,18 @@
+PODS:
+  - JGProgressHUD (1.4)
+  - MBProgressHUD (0.9.2)
+  - Toast (2.4)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - MBProgressHUD (~> 0.8)
+  - Toast (~> 2.4)
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+
+PODFILE CHECKSUM: 07ea5d77b5233b3385e67c383e0ded2012873604
+
+COCOAPODS: 1.0.1

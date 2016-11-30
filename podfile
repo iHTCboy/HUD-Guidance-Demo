@@ -1,0 +1,10 @@
+#s line to define a global platform for your projecttform :ios, "7.0"
+          
+target "HUD-Guidance-Demo" do
+          
+platform :ios, '7.0'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'JGProgressHUD'
+pod 'Toast', '~> 2.4'
+
+end
